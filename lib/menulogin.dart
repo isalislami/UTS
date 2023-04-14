@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:uts_2023/HalamanPage.dart';
-import 'package:uts_2023/latian.dart';
+import 'package:uts_2023/home_page.dart';
 import 'package:uts_2023/main.dart';
 
 class GetStartedPage extends StatelessWidget {
