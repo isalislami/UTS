@@ -251,11 +251,11 @@ class MainPage extends StatelessWidget {
                         EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0),
                     border: OutlineInputBorder(
                       borderSide:
-                          BorderSide(color: Color.fromARGB(255, 206, 196, 196)),
+                          BorderSide(color: Color.fromARGB(255, 184, 8, 116)),
                       borderRadius: BorderRadius.circular(30),
                     ),
                     filled: true,
-                    fillColor: Color(0xffFFFFFF),
+                    fillColor: Color.fromARGB(255, 104, 15, 156),
                     prefixIcon: Icon(
                       Icons.search,
                       size: 24,
