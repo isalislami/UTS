@@ -115,6 +115,32 @@ class GetStartedPage extends StatelessWidget {
                       SafeArea(
                         child: Column(
                           children: [
+                            Container(
+                              width: 50,
+                              height: 65,
+                              decoration: const BoxDecoration(
+                                  image: DecorationImage(
+                                      fit: BoxFit.cover,
+                                      image: AssetImage("assets/Logo.png"))),
+                            ),
+                            Column(
+                              children: [
+                                Text(
+                                  "Sahabat",
+                                  style: GoogleFonts.poppins(
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 32,
+                                      color: const Color(0xffFFFFFF)),
+                                ),
+                                Text(
+                                  "Furniture Kamu",
+                                  style: GoogleFonts.poppins(
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 22,
+                                      color: const Color(0xffFFFFFF)),
+                                ),
+                              ],
+                            ),
                           ],
                         ),
                       ),
@@ -142,14 +168,14 @@ class GetStartedPage extends StatelessWidget {
                   padding:
                       const EdgeInsets.symmetric(horizontal: 80, vertical: 14),
                   decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 158, 70, 11),
+                      color: Colors.green,
                       borderRadius: BorderRadius.circular(17)),
                   child: Text(
                     "LOGIN",
                     style: GoogleFonts.poppins(
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
-                        color: Color.fromARGB(255, 26, 82, 202)),
+                        color: Color(0xffFFFFFF)),
                   ),
                 ),
               ),
